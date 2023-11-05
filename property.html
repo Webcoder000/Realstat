@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Docu</title>  
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.topbar {
+			overflow: hidden;
+			background-color: black;
+			padding: 10px;
+
+		 	}
+
+
+		.left {
+			float: left;
+		}
+		.left a{
+			margin: 20px;
+			text-decoration: none;
+			text-transform: capitalize;
+			color:darkgrey;
+			font-family: cursive;
+		}
+		.right a{
+			margin: 10px;
+			text-decoration: none;
+			text-transform: capitalize;
+			font-family: cursive;
+			color: darkgrey;
+		}
+		.right {
+			float: right;
+		}
+		.navbar {
+			clear: both;
+
+			
+		}
+		.right a:hover,.left a:hover{
+			color: white;
+		} 
+		.logo{
+			display: inline-block;
+			width: 17vw;
+			
+			text-align: center;
+			
+		}
+		h3 {
+			font-size: 36px;
+		}
+		.logo a:hover{
+			
+			filter: invert(100%);
+		}
+		.logo a{
+			text-decoration: none;
+		}
+		
+		.links, ul, .searchform {
+			display: inline-block;
+
+
+		}
+		.links .navitems {
+			display: inline-block;
+			list-style: none;
+			padding:5px 15px;
+			margin-top: 13px; 
+			  
+		}
+		.links {
+			
+			width: 50vw;
+			text-align: center;
+			
+		}
+		.links a {
+			text-decoration: none;
+			color: black;
+			font-family: cursive;
+			font-weight: bolder;
+		}
+		.links a:hover{
+			text-decoration: underline;
+			color: darkgoldenrod;
+		}
+		.searchform {
+			
+			width: 30vw;
+			text-align: center;
+		}
+		
+		.searchform .btn{
+			background-color: black;
+			color: white;
+			padding: 6px 8px; 
+			margin-top: -2px;
+			cursor: pointer;
+			
+		}
+		.searchform .btn:hover{
+			background-color: darkkhaki;
+
+		}
+ 		.searchform .text {
+ 			padding: 3px 0px;
+ 			border: solid;
+ 		} 
+ 		.navbar {
+			top: 0;
+			position: sticky;
+			z-index: 1;
+			background-color: ivory;}
+			
+footer {
+	display: block;
+	padding-top: 55px;
+	background-color: black;
+	height: 70vh;
+}
+.fboxes{
+	
+	display: inline-block;
+	width: 25%;
+	margin:10px 50px ;
+	color: white;
+}
+.fboxes a{
+	display: block;
+	text-decoration:none;
+	color: darkgray;
+	margin: 0px 0px 20px 0px;
+
+}
+.link{
+	text-align: center;
+}
+.fboxes a:hover {
+	color: white;
+	text-decoration: underline;
+}
+.subsbutn{
+	background-color:darkkhaki;
+	outline:none;
+	padding: 10px;
+}
+.foolinks a {
+	display: inline;
+	margin: 15px 10px;
+}
+hr {
+	margin-top: 50px;
+}
+
+
+.property .pboxes img{
+	width: 50%;
+	display: inline-block;
+}
+.property .pboxes p{
+	padding: 10px;
+	display: inline-block;
+	width: 50%;
+}
+</style>
+
+
+
+</head>
+<body>
+<!--topbar starts here-->
+<div class="topbar">
+	<div class="left">
+		
+		<a href="mailto:youremail.com" class="email"><i class="fa fa-envelope" style="font-size: 16px;"></i>&nbsp;&nbsp;Your site email comes here</a>
+		<a href="tel:+923001234567" class="tel"><i class="fa fa-mobile" style="font-size: 16px;"></i>&nbsp;&nbsp;0300-1234567</a>
+	</div>
+	<div class="right">
+		<a href="" class="social"><i class="fa fa-facebook" style="font-size: 16px;"></i></a>
+		<a href="" class="social"><i class="fa fa-instagram" style="font-size: 16px;"></i></a>
+		<a href="" class="social"><i class="fa fa-twitter" style="font-size: 16px;"></i></a>
+		<a href="" class="social"><i class="fa fa-linkedin" style="font-siz: 16px;"></i></a>
+		<a href="" class="social"><i class="fa fa-github" style="font-size: 16px;"></i></a>
+	</div> 
+</div>
+<!--topbar ends here-->
+<nav class="navbar">
+	<!--navbar starts here-->
+	<div class="logo">
+	   <a href="">	<h3><span style="color:darkkhaki;">Q</span><span style="color: darkgreen;">R</span><span style="color: darkgrey;">State</span></h3></a>
+	</div>
+	<div class="links">
+	<ul>
+		<li class="navitems"><a href="index.html">Home</a></li>
+		<li class="navitems"><a href="">Services</a></li>
+
+		<li class="navitems"><a href="">About</a></li>
+		<li class="navitems"><a href="">Contact</a></li>
+		<li class="navitems"><a href="">FAQs</a></li>
+	</ul>
+	</div>
+	<div class="searchform">
+		<input class="text" type="text">
+		<input class="btn" type="button" value="Search">
+	
+	</div>
+</nav>
+<div class="property">
+	<div class="pboxes img"><img  src="images/housetwo.jpg" alt=""><p><span style="font-size:30px; font-weight: bold;">Property description</span><br>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Voluptatibus, modi fugit eligendi minus similique doloribus qui, repellat? Similique, suscipit. Ad libero corporis non, ipsum rem placeat dolorem ducimus. Quasi, aspernatur sunt explicabo ad quo reiciendis dolorum modi neque ratione laborum asperiores omnis laboriosam sint doloremque, eum odio. Nesciunt ipsa ipsum fuga alias voluptate magni cumque, qui architecto eveniet saepe ex fugiat error. Molestias aliquid nemo, debitis repellat, iure et, at odit consequuntur ea dignissimos, aut magnam saepe quaerat laborum velit doloremque eos. Necessitatibus aperiam, iure facere quae ab consequuntur modi iste exercitationem, sunt odit? Asperiores saepe, eaque provident rem qui tempora assumenda quae, quaerat ea eius minus accusamus. Natus reprehenderit repudiandae illum harum impedit quis quos et quas architecto accusantium officia ipsum nihil recusandae rerum autem modi officiis numquam enim pariatur sunt perspiciatis, hic at. Autem accusantium cupiditate impedit a dignissimos doloribus soluta quis libero voluptate! Iusto reprehenderit ducimus porro fugit sunt totam. Ea voluptate dolores dolor optio accusamus, consequatur quam, quod, ducimus, perferendis laboriosam placeat voluptas voluptates! Numquam unde reiciendis pariatur mollitia obcaecati beatae id nam nostrum praesentium repudiandae exercitationem, reprehenderit quia suscipit, eum consectetur iste deleniti consequuntur, itaque excepturi soluta fugiat dolor vitae, dignissimos? Amet sint porro molestiae.</p></div>
+	<div class="pboxes"></div>
+</div>
+<footer>
+			<div class="fboxes"><h6>About us</h6>
+				<p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Minima voluptatibus minus quibusdam, veniam tenetur culpa, fugiat nostrum non sit est mollitia. Vero, ducimus ea repellat iste numquam nisi animi suscipit, nam cumque. Repudiandae, a, et.</p>
+
+			</div>
+			<div class="fboxes link"><h6>Important Links</h6>
+				<a href="">Properties</a>
+				<a href="">Our Agents</a>
+				<a href="">Sevices</a>
+				<a href="">About us</a>
+			</div>
+			<div class="fboxes"><h6>Subscribe to our latest news</h6>
+				<div><input class="subsbutn" type="text"><input class="subsbutn" type="button" value="Subscribe"></div>
+				<h6 style="margin-top: 20px;">Follow us</h6>
+
+		<div class="foolinks"><a href="" class="social"><i class="fa fa-facebook" style="font-size: 16px;"></i></a>
+		<a href="" class="social"><i class="fa fa-instagram" style="font-size: 16px;"></i></a>
+		<a href="" class="social"><i class="fa fa-twitter" style="font-size: 16px;"></i></a>
+		<a href="" class="social"><i class="fa fa-linkedin" style="font-siz: 16px;"></i></a>
+		<a href="" class="social"><i class="fa fa-github" style="font-size: 16px;"></i></a>
+	</div>
+			</div>
+			<hr>
+			<p style="color: white;
+			text-align: center;">All rights reserved to the owner of the site&copy;</p>
+		</footer>
+		</body>
+</html>
